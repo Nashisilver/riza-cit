@@ -1,38 +1,62 @@
-# 🤖 Riza Hawkeye — Pruebas Técnicas C.I.T.
+# 🟠 Nivel 2 — Dev Junior
 
-Este repositorio contiene los ejercicios técnicos del proceso de selección del **Cuerpo de Intervención Técnica (C.I.T.)** de la comunidad **Dinastía**.
+## Contexto
+
+Este es `seguridad.js`, un módulo real del bot **Riza Hawkeye**.
+
+Se encarga de proteger los grupos: maneja advertencias, silenciados, baneados y anti-flood. En producción empezó a comportarse de forma inestable — algunos comandos no funcionan como deberían y hay al menos un problema de seguridad que pasó desapercibido.
+
+Tu trabajo es encontrarlo todo, corregirlo y explicar qué hiciste.
 
 ---
 
-## 📁 Estructura
+## 📥 Archivo del ejercicio
 
+👉 [`seguridad.js`](./seguridad.js)
+
+Descargalo, abrilo en tu editor y trabajá sobre él.
+
+---
+
+## 🔍 Qué hay adentro
+
+El módulo tiene **4 problemas**:
+
+| Tipo | Cantidad |
+|------|----------|
+| 🐛 Bugs funcionales | 2 |
+| ⚠️ Vulnerabilidad de seguridad | 1 |
+| ❌ Función incompleta | 1 |
+
+No te decimos dónde están. Parte del ejercicio es encontrarlos.
+
+---
+
+## ✅ Qué tenés que entregar
+
+Un único archivo `seguridad.js` corregido con:
+
+- El código funcionando correctamente
+- **Comentarios** explicando cada cambio que hiciste y por qué
+
+Ejemplo de comentario esperado:
+```javascript
+// ✅ CORRECCIÓN: [descripción del problema y cómo lo resolviste]
 ```
-riza-cit/
-├── nivel-2/    →  Dev Junior   — Un módulo con bugs reales para corregir
-└── nivel-3/    →  Dev Senior   — Mini-bot funcional con problemas de fondo
-```
 
 ---
 
-## 📋 ¿Cómo participar?
+## 📤 Cómo entregar
 
-1. Entrá a la carpeta del nivel que te corresponde
-2. Leé el `README.md` de ese nivel con atención
-3. Descargá el archivo (o los archivos) del ejercicio
-4. Trabajá en tu editor local
-5. Subí tu solución al formulario que te compartimos
-
-No necesitás saber usar Git para participar.
+Subí el archivo corregido al formulario que te compartimos.
 
 ---
 
-## ⚠️ Reglas generales
+## ⏱ Tiempo estimado
 
-- Podés usar cualquier editor o herramienta que uses normalmente
-- Podés buscar documentación — no es un examen de memoria
-- **No podés** compartir tu solución con otros candidatos
-- Los comentarios en el código son parte de la evaluación
+Entre 1 y 3 horas dependiendo de tu experiencia.
+No hay límite estricto — preferimos calidad sobre velocidad.
 
 ---
 
-*¿Dudas sobre el proceso? Contactá a un miembro del C.I.T. directamente.*
+*¿Algo no está claro? Contactá a un miembro del C.I.T.*
