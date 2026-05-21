@@ -35,7 +35,7 @@ El sistema tiene **5 problemas**:
 
 ---
 
-## ✅ Qué tenés que entregar
+## ✅ Qué tienes que entregar
 
 **① Código corregido** — los tres archivos con comentarios explicando cada cambio.
 
@@ -50,7 +50,7 @@ El sistema tiene **5 problemas**:
 
 ## 📤 Cómo entregar
 
-Comprimí todo en un `.zip` y subilo al formulario que te compartimos.
+Comprime todo en un `.zip` y subilo al formulario que te compartimos.
 
 ---
 
@@ -60,7 +60,7 @@ Entre 3 y 6 horas. No hay límite estricto.
 
 ---
 
-> **Nota:** El Nivel 3 incluye una conversación directa con el equipo después de la entrega técnica. El código es necesario pero no es suficiente — queremos entender cómo pensás.
+> **Nota:** El Nivel 3 incluye una conversación directa con el equipo después de la entrega técnica. El código es necesario pero no es suficiente — queremos entender cómo piensas.
 
 ---
 
