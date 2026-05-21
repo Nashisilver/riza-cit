@@ -20,7 +20,7 @@ riza-cit/
 2. Leé el `README.md` de ese nivel con atención
 3. Descargá el archivo (o los archivos) del ejercicio
 4. Trabajá en tu editor local
-5. Subí tu solución al formulario que te compartimos
+5. Sube tu solución al formulario que te compartimos
 
 No necesitás saber usar Git para participar.
 
@@ -28,9 +28,9 @@ No necesitás saber usar Git para participar.
 
 ## ⚠️ Reglas generales
 
-- Podés usar cualquier editor o herramienta que uses normalmente
-- Podés buscar documentación — no es un examen de memoria
-- **No podés** compartir tu solución con otros candidatos
+- Puedés usar cualquier editor o herramienta que uses normalmente
+- Puedes buscar documentación — no es un examen de memoria
+- **No puedes** compartir tu solución con otros candidatos
 - Los comentarios en el código son parte de la evaluación
 
 ---
