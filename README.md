@@ -1,61 +1,66 @@
-# 🟠 Nivel 2 — Dev Junior
+# 🔴 Nivel 3 — Dev Senior
 
 ## Contexto
 
-Este es `seguridad.js`, un módulo real del bot **Riza Hawkeye**.
+Este es un mini-bot funcional construido con **Baileys** (la librería de WhatsApp que usa Riza).
 
-Se encarga de proteger los grupos: maneja advertencias, silenciados, baneados y anti-flood. En producción empezó a comportarse de forma inestable — algunos comandos no funcionan como deberían y hay al menos un problema de seguridad que pasó desapercibido.
-
-Tu trabajo es encontrarlo todo, corregirlo y explicar qué hiciste.
+Tiene tres módulos conectados entre sí: entrada principal, moderación y base de datos. Fue escrito con errores intencionales que simulan problemas reales de producción — algunos sutiles, uno crítico.
 
 ---
 
-## 📥 Archivo del ejercicio
+## 📥 Archivos del ejercicio
 
-👉 [`seguridad.js`](./seguridad.js)
+```
+nivel-3/
+├── index.js        →  Entrada principal, conecta los módulos
+├── moderacion.js   →  Sistema de warns, mutes y comandos
+└── database.js     →  Capa de datos con SQLite
+```
 
-Descargalo, abrilo en tu editor y trabajá sobre él.
+Descargá los tres archivos y trabajá con ellos juntos.
 
 ---
 
 ## 🔍 Qué hay adentro
 
-El módulo tiene **4 problemas**:
+El sistema tiene **5 problemas**:
 
-| Tipo | Cantidad |
-|------|----------|
-| 🐛 Bugs funcionales | 2 |
-| ⚠️ Vulnerabilidad de seguridad | 1 |
-| ❌ Función incompleta | 1 |
-
-No te decimos dónde están. Parte del ejercicio es encontrarlos.
+| Tipo | Descripción |
+|------|-------------|
+| 🐛 Bug funcional | Falla silenciosamente en un caso edge |
+| 🐛 Bug funcional | Una condición que nunca se cumple |
+| 🔴 Bug crítico de seguridad | Un comando privilegiado mal protegido |
+| 🔧 Feature incompleta | Estructura presente pero no guarda nada |
+| 📋 Problema de arquitectura | Un módulo que hace demasiado |
 
 ---
 
-## ✅ Qué tienes que entregar
+## ✅ Qué tenés que entregar
 
-Un único archivo `seguridad.js` corregido con:
+**① Código corregido** — los tres archivos con comentarios explicando cada cambio.
 
-- El código funcionando correctamente
-- **Comentarios** explicando cada cambio que hiciste y por qué
+**② Documento de decisiones** — un `.md` o `.txt` respondiendo:
+- ¿Qué encontraste y dónde estaba cada problema?
+- ¿Cómo lo corregiste y por qué de esa forma?
+- ¿Encontraste algo más que no estaba en la lista? (esto suma)
 
-Ejemplo de comentario esperado:
-```javascript
-// ✅ CORRECCIÓN: [descripción del problema y cómo lo resolviste]
-```
+**③ Propuesta de mejora propia** — algo que mejorarías del sistema más allá de los bugs, con una justificación breve.
 
 ---
 
 ## 📤 Cómo entregar
 
-Sube el archivo corregido al formulario que te compartimos.
+Comprimí todo en un `.zip` y subilo al formulario que te compartimos.
 
 ---
 
 ## ⏱ Tiempo estimado
 
-Entre 1 y 3 horas dependiendo de tu experiencia.
-No hay límite estricto — preferimos calidad sobre velocidad.
+Entre 3 y 6 horas. No hay límite estricto.
+
+---
+
+> **Nota:** El Nivel 3 incluye una conversación directa con el equipo después de la entrega técnica. El código es necesario pero no es suficiente — queremos entender cómo pensás.
 
 ---
 
