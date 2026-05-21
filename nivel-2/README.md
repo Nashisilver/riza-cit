@@ -32,7 +32,7 @@ No te decimos dónde están. Parte del ejercicio es encontrarlos.
 
 ---
 
-## ✅ Qué tenés que entregar
+## ✅ Qué tienes que entregar
 
 Un único archivo `seguridad.js` corregido con:
 
@@ -48,7 +48,7 @@ Ejemplo de comentario esperado:
 
 ## 📤 Cómo entregar
 
-Subí el archivo corregido al formulario que te compartimos.
+Sube el archivo corregido al formulario que te compartimos.
 
 ---
 
